@@ -3,7 +3,7 @@
 			*时间：2017-12
 			*描述：拖拽排序列表
 		*/
-		function dragList(opt){
+		function DragList(opt){
 				this.wrapperElement=null;
 				this.dragElement=null;
 				this.bgElement=null;
@@ -12,7 +12,7 @@
 				this.errorLeft=0;
 				this.init(opt); 
 			};
-			dragList.prototype={ 
+			DragList.prototype={ 
 				init:function(opt){
 					var _thisObj=this;
 					_thisObj.wrapperElement=$("#"+opt.id);
