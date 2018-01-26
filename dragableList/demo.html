@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<link type="text/css" rel="stylesheet" href="css/demo.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/dragableList.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item">
+				<ul class="demo-list" id="listGroup">
+					<li id="a">1&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>2&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>3&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>4&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>5&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>6&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>7&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>8&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>9&nbsp;可拖拽列表<span class="movehandle"></span></li>
+					<li>10&nbsp;可拖拽列表<span class="movehandle"></span></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				new dragList({
+					id:"listGroup"
+				});
+			})
+		</script>
+	</body>
+</html>

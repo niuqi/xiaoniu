@@ -1,0 +1,9 @@
+*{box-sizing: border-box;padding:0;margin:0;}
+.container{width:100%;height:100%;padding:20px;}
+.item{width: 300px;margin:0 auto;box-shadow: 0 0 20px rgba(0,0,0,.4);}
+/*列表样式*/
+.demo-list{width:100%;padding:0;list-style: none;}
+.demo-list li{position:static;display:block;width:100%;height:50px;padding:0 30px 0 10px;background-color:#1a2226;line-height:50px;border-bottom:1px solid #ddd;color:#fff;cursor:pointer;}
+.demo-list li.bgElement{background-color:#fff;border: 4px dashed #ddd !important;}
+.demo-list li .movehandle{float:right;display:block;position:relative;top:15px;height:0;margin-right:-20px;border: 10px solid;border-radius:50%;border-top-color:#555;border-right-color:#666;border-bottom-color:#777;border-left-color:#888;}
+.demo-list li.draging{background-color:#ec971f;}
